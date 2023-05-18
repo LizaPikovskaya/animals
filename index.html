@@ -1,12 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shelter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="icon" href="./accets/Dog_silhouette.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container container">
+        <div class="logo-container">
+          <a href="#" class="logo-link link">Cozy House</a>
+          <p class="logo-undertitle">Shelter for pets in Boston</p>
+        </div>
+        <svg class="icon-burger" width="30" height="22">
+          <use href="./accets/sprite.svg#icon-burger-2"></use>
+        </svg>
+        <nav>
+          <ul class="nav-list list">
+            <li class="nav-item current">
+              <a href="./index.html" class="nav-link link">About the shelter</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pets.html" class="nav-link link">Our pets</a>
+            </li>
+            <li class="nav-item">
+              <a href="#help" class="nav-link link">Help the shelter</a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="nav-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="not-only">
+        <div class="container flex">
+          <div class="hero-text-container">
+            <h1 class="hero-title">
+              Not only people<br />
+              need a house
+            </h1>
+            <p class="hero-text">
+              We offer to give a chance to a little and nice puppy with an
+              extremely wide and open heart. He or she will love you more than
+              anybody else in the world, you will see!
+            </p>
+            <a class="hero-link link" href="#our-friends">Make a friend</a>
+          </div>
+          <div class="not-only-thumb">
+            <!-- <img src="./accets/main/puppy-not-only-desktop.png" alt="Puppy" width="698" height="728"> -->
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about-container">
+          <div class="about-text-container">
+            <h2 class="about-title">About the shelter “Cozy&nbsp;House”</h2>
+            <p class="about-text">
+              Currently we have 121 dogs and 342 cats on our hands and
+              statistics show that only 20% of them will find a family. The
+              others will continue to live with us and will be waiting for a
+              lucky chance to become dearly loved.
+            </p>
+            <p class="about-text">
+              We feed our wards with the best food and make sure that they do
+              not get sick, feel comfortable (including psychologically) and
+              well. We are supported by 87 volunteers and 28 employees of
+              various skill levels. About 12% of the animals are taken by the
+              shelter staff. Taking care of the animals, they become attached to
+              the pets and would hardly ever leave them alone.
+            </p>
+          </div>
+          <div class="about-thumb">
+            <!-- <img src="./accets/main/about-pets.png" alt="Dog and cat" width="300" height="408"> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="our-friends" id="our-friends">
+        <div class="container">
+          <h2 class="friends-title">
+            Our friends who<br />
+            are looking for a house
+          </h2>
+          <div class="slider-wrapper">
+            <button class="slider-button left">
+              <svg class="slider-arrow" width="14" height="6">
+                <use href="./accets/sprite.svg#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <ul class="friends-list list">
+              <li class="friends-item">
+                <img
+                  src="./accets/pets/katrine.png"
+                  alt="grey cat"
+                  class="card-img"
+                />
+                <div class="card-wrapper">
+                  <p class="card-text">Katrine</p>
+                  <button class="card-button">Learn more</button>
+                </div>
+              </li>
+              <li class="friends-item">
+                <img
+                  src="./accets/pets/jennifer.png"
+                  alt="white puppy"
+                  class="card-img"
+                />
+                <div class="card-wrapper">
+                  <p class="card-text">Jennifer</p>
+                  <button class="card-button">Learn more</button>
+                </div>
+              </li>
+              <li class="friends-item">
+                <img
+                  src="./accets/pets/woody.png"
+                  alt="brown dog"
+                  class="card-img"
+                />
+                <div class="card-wrapper">
+                  <p class="card-text">Woody</p>
+                  <button class="card-button">Learn more</button>
+                </div>
+              </li>
+            </ul>
+            <button class="slider-button right">
+              <svg class="slider-arrow" width="14" height="6">
+                <use href="./accets/sprite.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+          <a class="friends-link link" href="./pets.html"
+            >Get to know the rest</a
+          >
+        </div>
+      </section>
+      <section class="help" id="help">
+        <div class="container">
+          <h2 class="help-title">
+            How you can help <br />
+            our shelter
+          </h2>
+          <ul class="help-list list">
+            <li class="help-item">
+              <svg class="help-icon" width="60" height="60">
+                <use href="./accets/sprite.svg#icon-icon-pet-food"></use>
+              </svg>
+              <p class="help-text">Pet food</p>
+            </li>
+            <li class="help-item">
+              <svg class="help-icon" width="60" height="60">
+                <use href="./accets/sprite.svg#icon-icon-transportation"></use>
+              </svg>
+              <p class="help-text">Transportation</p>
+            </li>
+            <li class="help-item">
+              <svg class="help-icon" width="60" height="60">
+                <use href="./accets/sprite.svg#icon-icon-toys"></use>
+              </svg>
+              <p class="help-text">Toys</p>
+            </li>
+            <li class="help-item">
+              <svg class="help-icon" width="60" height="60">
+                <use href="./accets/sprite.svg#icon-icon-bowls-and-cups"></use>
+              </svg>
+              <p class="help-text">Bowls and cups</p>
+            </li>
+            <li class="help-item">
+              <svg class="help-icon" width="60" height="60">
+                <use href="./accets/sprite.svg#icon-icon-shampoos"></use>
+              </svg>
+              <p class="help-text">Shampoos</p>
+            </li>
+            <li class="help-item">
+              <svg class="help-icon" width="60" height="60">
+                <use href="./accets/sprite.svg#icon-icon-vitamins"></use>
+              </svg>
+              <p class="help-text">Vitamins</p>
+            </li>
+            <li class="help-item">
+              <svg class="help-icon" width="60" height="60">
+                <use href="./accets/sprite.svg#icon-icon-medicines"></use>
+              </svg>
+              <p class="help-text">Medicines</p>
+            </li>
+            <li class="help-item">
+              <svg class="help-icon" width="60" height="60">
+                <use href="./accets/sprite.svg#icon-icon-collars-leashes"></use>
+              </svg>
+              <p class="help-text">Collars / leashes</p>
+            </li>
+            <li class="help-item">
+              <svg class="help-icon" width="60" height="60">
+                <use href="./accets/sprite.svg#icon-icon-sleeping-area"></use>
+              </svg>
+              <p class="help-text">Sleeping areas</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="in-addition">
+        <div class="container additional-container">
+          <div class="additional-wrapper">
+            <h2 class="additional-title">
+              You can also <br />
+              make a donation
+            </h2>
+            <p class="additional-subtitle">
+              Name of the bank / Type of bank account
+            </p>
+            <a href="#" class="additional-card-link link">
+              <svg class="additional-card-icon" width="30" height="23">
+                <use href="./accets/sprite.svg#icon-credit-card"></use>
+              </svg>
+              8380 2880 8028 8791 7435</a
+            >
+            <p class="additional-text">
+              Legal information and lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed
+              ac diam. Praesent ultrices maximus tortor et vulputate. Interdum
+              et malesuada fames ac ante ipsum primis in faucibus.
+            </p>
+          </div>
+          <div class="additional-thumb-img"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="container footer-container">
+        <div class="common-footer-wrapper">
+          <ul class="footer-list list">
+            <li class="footer-item">
+              <h2 class="footer-title">For questions and suggestions</h2>
+              <ul class="footer-contacts-list list">
+                <li class="footer-contacts-item">
+                  <a
+                    href="mailto:email@shelter.com"
+                    class="footer-contacts-link link"
+                  >
+                    <svg class="contact-icon" width="40" height="32">
+                      <use href="./accets/sprite.svg#icon-email"></use>
+                    </svg>
+                    email@shelter.com</a
+                  >
+                </li>
+                <li class="footer-contacts-item">
+                  <a href="tel:+136745677554" class="footer-contacts-link link">
+                    <svg class="contact-icon" width="40" height="32">
+                      <use href="./accets/sprite.svg#icon-phone"></use>
+                    </svg>
+                    +13 674 567 75 54</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="footer-item">
+              <h2 class="footer-title two">We are waiting for your visit</h2>
+              <ul class="footer-contacts-list list">
+                <li class="footer-contacts-item">
+                  <a
+                    href="https://goo.gl/maps/8QMJvS7eU98vVLtk9"
+                    target="_blank"
+                    class="footer-contacts-link link"
+                  >
+                    <svg class="contact-icon" width="22" height="32">
+                      <use href="./accets/sprite.svg#icon-marker"></use>
+                    </svg>
+                    1 Central Street, Boston (entrance from the store)</a
+                  >
+                </li>
+                <li class="footer-contacts-item">
+                  <a
+                    href="https://goo.gl/maps/W7CqzqmFYebGcx6s8"
+                    target="_blank"
+                    class="footer-contacts-link link"
+                  >
+                    <svg class="contact-icon" width="22" height="32">
+                      <use href="./accets/sprite.svg#icon-marker"></use>
+                    </svg>
+                    18 South Park, London
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="footer-bgc-img-item"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
